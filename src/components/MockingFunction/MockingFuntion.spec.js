@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import MockingFunction from "./MockingFunction/MockingFunction";
+import MockingFunction from "./MockingFunction";
 
 describe("Testing Counter Component using mocking function", () => {
   const handleIncrement = jest.fn();
